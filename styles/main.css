@@ -1,0 +1,28 @@
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #81909E;
+}
+
+.topics-wrapper {
+    position: absolute;
+    bottom: 50px;
+    right: 400px;
+}
+
+ul {
+    width: 250px;
+}
+
+ul li {
+       list-style-type: square;
+       margin-bottom: 15px;
+}
+
+ul li button {
+    position: absolute;
+    right: 0;
+}
